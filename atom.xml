@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>柠檬酷儿的博客</title>
+  
+  <subtitle>✨“我只是一个李知恩而已，是大家成就的IU”✨</subtitle>
+  <link href="http://nmker.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://nmker.github.io/"/>
+  <updated>2022-01-29T02:27:51.073Z</updated>
+  <id>http://nmker.github.io/</id>
+  
+  <author>
+    <name>柠檬酷儿</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>李知恩</title>
+    <link href="http://nmker.github.io/2022/01/29/%E6%9D%8E%E7%9F%A5%E6%81%A9/"/>
+    <id>http://nmker.github.io/2022/01/29/%E6%9D%8E%E7%9F%A5%E6%81%A9/</id>
+    <published>2022-01-29T02:26:31.000Z</published>
+    <updated>2022-01-29T02:27:51.073Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>✨“想要幸福的话，就要爱自己身边的人，所以最近在尝试这个做法，对一切事物都抱有热爱的话就不会有伤心的事了”✨<br>✨“想要幸福的话，就要爱自己身边的人，所以最近在尝试这个做法，对一切事物都抱有热爱的话就不会有伤心的事了”✨<br>✨“你们把我想的那么棒，那么我就变成你们所想的那样的人，所以我努力工作并向你们心中的IU学习着”✨<br>✨“大家横越着1456公里传递给我的爱，我一直深深感受着，真希望大家 也能感受我的心意，我会好好努力的”✨<br>✨“我不常参加综艺类节目，只是因为粉丝想看所以来参加了”✨<br>✨“即使世界真的很残酷，人们互相爱护的话也就好了啊<br>”✨</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;✨“想要幸福的话，就要爱自己身边的人，所以最近在尝试这个做法，对一切事物都抱有热爱的话就不会有伤心的事了”✨&lt;br&gt;✨“想要幸福的话，就要爱自己身边的人，所以最近在尝试这个做法，对一切事物都抱有热爱的话就不会有伤心的事了”✨&lt;br&gt;✨“你们把我想的</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://nmker.github.io/2022/01/28/hello-world/"/>
+    <id>http://nmker.github.io/2022/01/28/hello-world/</id>
+    <published>2022-01-28T15:39:29.841Z</published>
+    <updated>2022-01-28T15:39:29.841Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
