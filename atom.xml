@@ -6,7 +6,7 @@
   <link href="http://nmker.github.io/atom.xml" rel="self"/>
   
   <link href="http://nmker.github.io/"/>
-  <updated>2022-01-29T02:27:51.073Z</updated>
+  <updated>2022-01-29T15:37:58.258Z</updated>
   <id>http://nmker.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TermuxDDOS篇</title>
+    <link href="http://nmker.github.io/2022/01/29/termux%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/"/>
+    <id>http://nmker.github.io/2022/01/29/termux%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/</id>
+    <published>2022-01-29T15:26:32.000Z</published>
+    <updated>2022-01-29T15:37:58.258Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>第一步你必须要有个速度快的，稳定的梯子（vpn）<br>然后打开termux这时候最好不要把termux换成清华源，因为一会儿从github下载系统镜像会用vpn，不然会非常的慢<br>输入代码：apt update &amp;&amp; apt upgrade 更新一下<br>安装python所有版本:<br>pkg install python<br>pkg install python2<br>pkg install python3<br>安装git储存库:pkg install git<br>克隆git储存库:git clone <a href="https://github.com/CyberMrlink/Ddos404">https://github.com/CyberMrlink/Ddos404</a><br>克隆中等待克隆完成切勿退出软件进入git储存库主目录:储存库网址后边的名称<br>cd Ddos404<br>ls<br>sh ddos.sh提示:如果途中遇到y或n输入y继续安装，如果遇到这个?输入y</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;第一步你必须要有个速度快的，稳定的梯子（vpn）&lt;br&gt;然后打开termux这时候最好不要把termux换成清华源，因为一会儿从github下载系统镜像会用vpn，不然会非常的慢&lt;br&gt;输入代码：apt update &amp;amp;&amp;amp; apt </summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>李知恩</title>

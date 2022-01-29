@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/01/28/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>李知恩</title>
+    <url>/2022/01/29/%E6%9D%8E%E7%9F%A5%E6%81%A9/</url>
+    <content><![CDATA[<blockquote>
+<p>✨“想要幸福的话，就要爱自己身边的人，所以最近在尝试这个做法，对一切事物都抱有热爱的话就不会有伤心的事了”✨<br>✨“想要幸福的话，就要爱自己身边的人，所以最近在尝试这个做法，对一切事物都抱有热爱的话就不会有伤心的事了”✨<br>✨“你们把我想的那么棒，那么我就变成你们所想的那样的人，所以我努力工作并向你们心中的IU学习着”✨<br>✨“大家横越着1456公里传递给我的爱，我一直深深感受着，真希望大家 也能感受我的心意，我会好好努力的”✨<br>✨“我不常参加综艺类节目，只是因为粉丝想看所以来参加了”✨<br>✨“即使世界真的很残酷，人们互相爱护的话也就好了啊<br>”✨</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>TermuxDDOS篇</title>
+    <url>/2022/01/29/termux%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/</url>
+    <content><![CDATA[<blockquote>
+<p>第一步你必须要有个速度快的，稳定的梯子（vpn）<br>然后打开termux这时候最好不要把termux换成清华源，因为一会儿从github下载系统镜像会用vpn，不然会非常的慢<br>输入代码：apt update &amp;&amp; apt upgrade 更新一下<br>安装python所有版本:<br>pkg install python<br>pkg install python2<br>pkg install python3<br>安装git储存库:pkg install git<br>克隆git储存库:git clone <a href="https://github.com/CyberMrlink/Ddos404">https://github.com/CyberMrlink/Ddos404</a><br>克隆中等待克隆完成切勿退出软件进入git储存库主目录:储存库网址后边的名称<br>cd Ddos404<br>ls<br>sh ddos.sh提示:如果途中遇到y或n输入y继续安装，如果遇到这个?输入y</p>
+</blockquote>
+]]></content>
+  </entry>
+</search>
