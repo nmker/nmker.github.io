@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>TermuxDDOS篇</title>
-    <url>/2022/01/29/termux%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/</url>
-    <content><![CDATA[<blockquote>
-<p>第一步你必须要有个速度快的，稳定的梯子（vpn）<br>然后打开termux这时候最好不要把termux换成清华源，因为一会儿从github下载系统镜像会用vpn，不然会非常的慢<br>输入代码：apt update &amp;&amp; apt upgrade 更新一下<br>安装python所有版本:<br>pkg install python<br>pkg install python2<br>pkg install python3<br>安装git储存库:pkg install git<br>克隆git储存库:git clone <a href="https://github.com/CyberMrlink/Ddos404">https://github.com/CyberMrlink/Ddos404</a><br>克隆中等待克隆完成切勿退出软件进入git储存库主目录:储存库网址后边的名称<br>cd Ddos404<br>ls<br>sh ddos.sh提示:如果途中遇到y或n输入y继续安装，如果遇到这个?输入y</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2022/01/28/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -24,6 +16,22 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>TermuxDDOS篇</title>
+    <url>/2022/01/29/termux%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/</url>
+    <content><![CDATA[<blockquote>
+<p>第一步你必须要有个速度快的，稳定的梯子（vpn）<br>然后打开termux这时候最好不要把termux换成清华源，因为一会儿从github下载系统镜像会用vpn，不然会非常的慢<br>输入代码：apt update &amp;&amp; apt upgrade 更新一下<br>安装python所有版本:<br>pkg install python<br>pkg install python2<br>pkg install python3<br>安装git储存库:pkg install git<br>克隆git储存库:git clone <a href="https://github.com/CyberMrlink/Ddos404">https://github.com/CyberMrlink/Ddos404</a><br>克隆中等待克隆完成切勿退出软件进入git储存库主目录:储存库网址后边的名称<br>cd Ddos404<br>ls<br>sh ddos.sh提示:如果途中遇到y或n输入y继续安装，如果遇到这个?输入y</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>南韩第一女sole</title>
+    <url>/2022/01/29/%E6%9D%8E%E7%9F%A5%E6%81%A9/</url>
+    <content><![CDATA[<blockquote>
+<p>姓名：李知恩<br>艺名：IU<br>体重：46公斤<br>身高：161.8cm<br>破壳日🐣：1993.5.16<br>粉丝名：Uaena<br>IU最喜欢的颜色：蓝紫色<br>应援口号：牛奶光泽IU<br>✨“ 反而最近，有一天突然回顾我的过去，我把一生中受到的幸运全部挑出来，剩下的就是人生”✨<br>✨“没有人能背负他人的一生。但只要志同道合，就一定能并肩走向远方。我为我爱的人勤勉地写诗，也衷心希望听到这首歌（诗）的你能在黑暗中喘口气，然后活下去 ”✨</p>
+</blockquote>
 ]]></content>
   </entry>
   <entry>
@@ -58,14 +66,6 @@
 <ol>
 <li>知识渴望 多写 多练 多问 &gt; 带徒弟 &gt; 兼职 就业 &gt; 阿里P5级别 0基础<br>怎么学 &gt; 直播(晚上8.30 - 10.30) 腾讯课堂 APP 客户端 &gt; 录播(下载) &gt; 线下 成本(场地 电脑 水电 住宿) &gt; 班级群 &gt; 多对一辅导 &gt; 作业 项目<br>周期 学费 &gt; 学的起 &gt; 政策 &gt; 国家助学补助政策 2000 &gt; 前1位 预定 入学登记表 教务处审核 10点 &gt; 就业 &gt; 证 阿里云认证 培训 &gt; 2年学习卡 工作 兼职 &gt; JD教育 腾讯课堂 &gt; 教育分期(不会包含任何手续费利息) 每个月 200 - 300 24期 每天18块 一包烟奶茶<br>企业职业等级认证 &gt;<br>阿里云认证 &gt; 阿里云 &gt; 互联网<br>华为认证   &gt; 华为   &gt; 通信<br>思科认证   &gt; 思科   &gt; 运维<br>课程安排 &gt;<br>全栈就业班 &gt; 核心语法 + 企业框架 &gt; 5.5个月 兼职 快速就业 8880<br>高薪架构班 &gt; 核心语法 + 企业框架 + 设计模式 7个月 长期就业 10880</li>
 </ol>
-]]></content>
-  </entry>
-  <entry>
-    <title>南韩第一女sole</title>
-    <url>/2022/01/29/%E6%9D%8E%E7%9F%A5%E6%81%A9/</url>
-    <content><![CDATA[<blockquote>
-<p>姓名：李知恩<br>艺名：IU<br>体重：46公斤<br>身高：161.8cm<br>破壳日🐣：1993.5.16<br>粉丝名：Uaena<br>IU最喜欢的颜色：蓝紫色<br>应援口号：牛奶光泽IU<br>✨“ 反而最近，有一天突然回顾我的过去，我把一生中受到的幸运全部挑出来，剩下的就是人生”✨<br>✨“没有人能背负他人的一生。但只要志同道合，就一定能并肩走向远方。我为我爱的人勤勉地写诗，也衷心希望听到这首歌（诗）的你能在黑暗中喘口气，然后活下去 ”✨</p>
-</blockquote>
 ]]></content>
   </entry>
 </search>
