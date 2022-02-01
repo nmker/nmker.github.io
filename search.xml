@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>ceshi</title>
+    <url>/2022/02/01/ceshi/</url>
+    <content><![CDATA[<img src="/2022/02/01/ceshi/lgr.jpg" class>
+]]></content>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2022/01/28/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -19,16 +25,19 @@
 ]]></content>
   </entry>
   <entry>
-    <title>ceshi</title>
-    <url>/2022/02/01/ceshi/</url>
-    <content><![CDATA[<img src="/2022/02/01/ceshi/lgr.jpg" class>
-]]></content>
-  </entry>
-  <entry>
     <title>TermuxDDOS篇</title>
     <url>/2022/01/29/termux%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/</url>
     <content><![CDATA[<blockquote>
 <p>第一步你必须要有个速度快的，稳定的梯子（vpn）<br>然后打开termux这时候最好不要把termux换成清华源，因为一会儿从github下载系统镜像会用vpn，不然会非常的慢<br>输入代码：apt update &amp;&amp; apt upgrade 更新一下<br>安装python所有版本:<br>pkg install python<br>pkg install python2<br>pkg install python3<br>安装git储存库:pkg install git<br>克隆git储存库:git clone <a href="https://github.com/CyberMrlink/Ddos404">https://github.com/CyberMrlink/Ddos404</a><br>克隆中等待克隆完成切勿退出软件进入git储存库主目录:储存库网址后边的名称<br>cd Ddos404<br>ls<br>sh ddos.sh提示:如果途中遇到y或n输入y继续安装，如果遇到这个?输入y</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>南韩第一女sole</title>
+    <url>/2022/01/29/%E6%9D%8E%E7%9F%A5%E6%81%A9/</url>
+    <content><![CDATA[
+<blockquote>
+<p>姓名：李知恩<br>艺名：IU<br>体重：46公斤<br>身高：161.8cm<br>破壳日🐣：1993.5.16<br>粉丝名：Uaena<br>IU最喜欢的颜色：蓝紫色<br>应援口号：牛奶光泽IU<br>✨“ 反而最近，有一天突然回顾我的过去，我把一生中受到的幸运全部挑出来，剩下的就是人生”✨<br>✨“没有人能背负他人的一生。但只要志同道合，就一定能并肩走向远方。我为我爱的人勤勉地写诗，也衷心希望听到这首歌（诗）的你能在黑暗中喘口气，然后活下去 ”✨</p>
 </blockquote>
 ]]></content>
   </entry>
@@ -45,26 +54,11 @@
       </categories>
   </entry>
   <entry>
-    <title>南韩第一女sole</title>
-    <url>/2022/01/29/%E6%9D%8E%E7%9F%A5%E6%81%A9/</url>
-    <content><![CDATA[
-<blockquote>
-<p>姓名：李知恩<br>艺名：IU<br>体重：46公斤<br>身高：161.8cm<br>破壳日🐣：1993.5.16<br>粉丝名：Uaena<br>IU最喜欢的颜色：蓝紫色<br>应援口号：牛奶光泽IU<br>✨“ 反而最近，有一天突然回顾我的过去，我把一生中受到的幸运全部挑出来，剩下的就是人生”✨<br>✨“没有人能背负他人的一生。但只要志同道合，就一定能并肩走向远方。我为我爱的人勤勉地写诗，也衷心希望听到这首歌（诗）的你能在黑暗中喘口气，然后活下去 ”✨</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
     <title>用python turtle书写新年快乐</title>
     <url>/2022/01/31/%E7%94%A8python-turtle%E4%B9%A6%E5%86%99%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/</url>
     <content><![CDATA[<blockquote>
 <p>首先给大家伙拜年了！<br>2022大年三十的今天，我:柠檬酷儿在这里向大家伙拜年了！<br>这里推荐一个Python的三方库turtle，是一个可以绘制图像文字的库。<br>推荐一个Python的三方库turtle，是一个可以绘制图像文字的库。<br>这里的例子比较简单，就是依据各个点坐标连线最后形成文字的。<br>今天心血来潮想创作一番，于是写了‘新年快乐’四个字体，代码不难，纪念一下，Python正在学习中，难的目前不会写，哈哈，新的一年，我的新年愿望是python会有很大进步。<br>先附上笔记：<br>· import turtle ———- turtle库的引用，import turtle as t（t就是起的别名）<br>· penup简称up ——— t.up()就是抬起笔<br>· pendown简称down ——–t.down()就是落下笔<br>· backward———-t.backward()向后画<br>· goto———-t.goto(二维坐标)箭头到此地<br>· pensize——–t.pensize(笔的粗细（像素）)<br>· pencolor简称color—-t.color(“red”)参数也可为rgb小数值或元组值<br>· left———t.left(）箭头左转，里面写度数，可正可负<br>· right—–右转<br>· setup—–t.setup(width,height,startx,starty)设置窗口大小及位置<br>· begin_fill——开始填充<br>· end_fill———结束填充<br>· fillcolor———-填充颜色<br>· circle———一个参数是圆，二个（半径，角度（对应弧度）），另外，circle（40，steps&#x3D;3）为三角形边长40像素，多边形可以改steps值。<br>下面是我写新年快乐的代码：<br>import turtle as t<br>t.pensize(10)<br>t.color(“red”)<br>t.up()<br>t.goto(-200,150)<br>t.pendown()<br>t.left(-135)<br>t.fd(30)<br>t.up()<br>t.goto(-250,130)<br>t.pendown()<br>t.left(135)<br>t.fd(80)<br>t.up()<br>t.goto(-235,120)<br>t.down()<br>t.left(-45)<br>t.fd(28)<br>t.up()<br>t.goto(-185,120)<br>t.down()<br>t.left(-90)<br>t.fd(25)<br>t.up()<br>t.goto(-250,100)<br>t.down()<br>t.left(135)<br>t.fd(80)<br>t.up()<br>t.goto(-250,80)<br>t.down()<br>t.fd(80)<br>t.up()<br>t.goto(-205,100)<br>t.down()<br>t.left(-90)<br>t.fd(100)<br>t.left(-135)<br>t.fd(30)<br>t.up()<br>t.goto(-220,60)<br>t.down()<br>t.left(90)<br>t.fd(40)<br>t.up()<br>t.goto(-190,60)<br>t.down()<br>t.left(90)<br>t.fd(30)<br>t.up()<br>t.goto(-100,150)<br>t.down()<br>t.left(-100)<br>t.fd(60)<br>t.left(50)<br>t.fd(120)<br>t.backward(95)<br>t.left(95)<br>t.fd(70)<br>t.up()<br>t.goto(-115,90)<br>t.down()<br>t.left(-90)<br>t.fd(93)<br>#年<br>t.up()<br>t.color(“orange”)<br>t.goto(100,135)<br>t.left(-45)<br>t.down()<br>t.fd(45)<br>t.backward(22)<br>t.left(135)<br>t.fd(100)<br>t.up()<br>t.goto(97,95)<br>t.down()<br>t.fd(80)<br>t.backward(80)<br>t.left(-90)<br>t.fd(30)<br>t.left(-90)<br>t.fd(15)<br>t.backward(112)<br>t.up()<br>t.goto(140,115)<br>t.down()<br>t.left(90)<br>t.fd(110)<br>#kuai<br>t.up()<br>t.color(“pink”)<br>t.goto(-230,-55)<br>t.down()<br>t.fd(160)<br>t.up()<br>t.goto(-233,-95)<br>t.down()<br>t.left(-40)<br>t.fd(27)<br>t.pensize(3)<br>t.backward(30)<br>t.left(76)<br>t.pensize(10)<br>t.fd(20)<br>t.up()<br>t.goto(-190,-90)<br>t.left(55)<br>t.down()<br>t.fd(80)<br>t.left(-90)<br>t.fd(40)<br>t.left(90)<br>t.fd(20)<br>t.backward(110)<br>t.up()<br>t.goto(-150,-50)<br>t.left(-90)<br>t.down()<br>t.fd(80)<br>t.circle(-150,40)<br>t.up()<br>t.goto(-150,-140)<br>t.down()<br>t.left(50)<br>t.circle(150,35)<br>#le<br>t.up()<br>t.goto(100,-80)<br>t.color(“yellow”)<br>t.down()<br>t.left(50)<br>t.circle(180,30)<br>t.up()<br>t.goto(100,-80)<br>t.down()<br>t.left(-127)<br>t.fd(45)<br>t.left(90)<br>t.fd(90)<br>t.up()<br>t.goto(140,-85)<br>t.down()<br>t.left(-90)<br>t.fd(130)<br>t.left(-135)<br>t.fd(40)<br>t.up()<br>t.goto(124,-155)<br>t.down()<br>t.left(90)<br>t.fd(50)<br>t.up()<br>t.goto(158,-160)<br>t.down()<br>t.left(80)<br>t.fd(46)<br>#tuan<br>t.up()<br>t.goto(-50,-160)<br>t.down()<br>t.pensize(5)<br>t.color(“bloown”)<br>t.begin_fill()<br>t.fillcolor(“yellow”)<br>t.circle(50)<br>t.end_fill()<br>t.up()<br>t.goto(-35,-130)<br>t.down()<br>t.color(“black”)<br>t.circle(7)<br>t.up()<br>t.goto(5,-130)<br>t.down()<br>t.circle(7)<br>t.up()<br>t.goto(-20,-150)<br>t.down()<br>t.circle(20,130)<br>#xin<br>t.up()<br>t.goto(-30,80)<br>t.pensize(60)<br>t.color(“red”)<br>t.left(-120)<br>t.down()<br>t.fd(50)<br>t.left(90)<br>t.fd(50)<br>#ok   over<br>这样就ok了，运行看看结果吧。新年快乐！</p>
 </blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>风月都好看，人间也浪漫</title>
-    <url>/2022/02/01/%E9%A3%8E%E6%9C%88%E9%83%BD%E5%A5%BD%E7%9C%8B%EF%BC%8C%E4%BA%BA%E9%97%B4%E4%B9%9F%E6%B5%AA%E6%BC%AB/</url>
-    <content><![CDATA[<p>万物皆有裂痕，那是光照进来的地方 ——莱昂纳德·科恩<br>星光不问赶路人，时光不负有心人~<br>愿你放下执着，放下不甘心，从今以后，只负责精彩自己的人生。往事不回头，未来不将就，你若盛开，清风自来<br>每一段无法继续的爱情，都有负责保存它的人，才能让另一个人安心往前<br>Set all tenderness to be visible only for you 把所有的温柔都设置成了仅你可见</p>
 ]]></content>
   </entry>
   <entry>
@@ -99,6 +93,12 @@
 <ol>
 <li>知识渴望 多写 多练 多问 &gt; 带徒弟 &gt; 兼职 就业 &gt; 阿里P5级别 0基础<br>怎么学 &gt; 直播(晚上8.30 - 10.30) 腾讯课堂 APP 客户端 &gt; 录播(下载) &gt; 线下 成本(场地 电脑 水电 住宿) &gt; 班级群 &gt; 多对一辅导 &gt; 作业 项目<br>周期 学费 &gt; 学的起 &gt; 政策 &gt; 国家助学补助政策 2000 &gt; 前1位 预定 入学登记表 教务处审核 10点 &gt; 就业 &gt; 证 阿里云认证 培训 &gt; 2年学习卡 工作 兼职 &gt; JD教育 腾讯课堂 &gt; 教育分期(不会包含任何手续费利息) 每个月 200 - 300 24期 每天18块 一包烟奶茶<br>企业职业等级认证 &gt;<br>阿里云认证 &gt; 阿里云 &gt; 互联网<br>华为认证   &gt; 华为   &gt; 通信<br>思科认证   &gt; 思科   &gt; 运维<br>课程安排 &gt;<br>全栈就业班 &gt; 核心语法 + 企业框架 &gt; 5.5个月 兼职 快速就业 8880<br>高薪架构班 &gt; 核心语法 + 企业框架 + 设计模式 7个月 长期就业 10880</li>
 </ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>风月都好看，人间也浪漫</title>
+    <url>/2022/02/01/%E9%A3%8E%E6%9C%88%E9%83%BD%E5%A5%BD%E7%9C%8B%EF%BC%8C%E4%BA%BA%E9%97%B4%E4%B9%9F%E6%B5%AA%E6%BC%AB/</url>
+    <content><![CDATA[<p>万物皆有裂痕，那是光照进来的地方 ——莱昂纳德·科恩<br>星光不问赶路人，时光不负有心人~<br>愿你放下执着，放下不甘心，从今以后，只负责精彩自己的人生。往事不回头，未来不将就，你若盛开，清风自来<br>每一段无法继续的爱情，都有负责保存它的人，才能让另一个人安心往前<br>Set all tenderness to be visible only for you 把所有的温柔都设置成了仅你可见</p>
 ]]></content>
   </entry>
 </search>
