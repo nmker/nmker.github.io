@@ -25,14 +25,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>TermuxDDOS篇</title>
-    <url>/2022/01/29/termux%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/</url>
-    <content><![CDATA[<blockquote>
-<p>第一步你必须要有个速度快的，稳定的梯子（vpn）<br>然后打开termux这时候最好不要把termux换成清华源，因为一会儿从github下载系统镜像会用vpn，不然会非常的慢<br>输入代码：apt update &amp;&amp; apt upgrade 更新一下<br>安装python所有版本:<br>pkg install python<br>pkg install python2<br>pkg install python3<br>安装git储存库:pkg install git<br>克隆git储存库:git clone <a href="https://github.com/CyberMrlink/Ddos404">https://github.com/CyberMrlink/Ddos404</a><br>克隆中等待克隆完成切勿退出软件进入git储存库主目录:储存库网址后边的名称<br>cd Ddos404<br>ls<br>sh ddos.sh提示:如果途中遇到y或n输入y继续安装，如果遇到这个?输入y</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
     <title>关于成年人的世界</title>
     <url>/2022/01/31/%E5%85%B3%E4%BA%8E%E6%88%90%E5%B9%B4%E4%BA%BA%E7%9A%84%E4%B8%96%E7%95%8C/</url>
     <content><![CDATA[
@@ -50,6 +42,14 @@
     <content><![CDATA[
 <blockquote>
 <p>姓名：李知恩<br>艺名：IU<br>体重：46公斤<br>身高：161.8cm<br>破壳日🐣：1993.5.16<br>粉丝名：Uaena<br>IU最喜欢的颜色：蓝紫色<br>应援口号：牛奶光泽IU<br>✨“ 反而最近，有一天突然回顾我的过去，我把一生中受到的幸运全部挑出来，剩下的就是人生”✨<br>✨“没有人能背负他人的一生。但只要志同道合，就一定能并肩走向远方。我为我爱的人勤勉地写诗，也衷心希望听到这首歌（诗）的你能在黑暗中喘口气，然后活下去 ”✨</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>TermuxDDOS篇</title>
+    <url>/2022/01/29/termux%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/</url>
+    <content><![CDATA[<blockquote>
+<p>第一步你必须要有个速度快的，稳定的梯子（vpn）<br>然后打开termux这时候最好不要把termux换成清华源，因为一会儿从github下载系统镜像会用vpn，不然会非常的慢<br>输入代码：apt update &amp;&amp; apt upgrade 更新一下<br>安装python所有版本:<br>pkg install python<br>pkg install python2<br>pkg install python3<br>安装git储存库:pkg install git<br>克隆git储存库:git clone <a href="https://github.com/CyberMrlink/Ddos404">https://github.com/CyberMrlink/Ddos404</a><br>克隆中等待克隆完成切勿退出软件进入git储存库主目录:储存库网址后边的名称<br>cd Ddos404<br>ls<br>sh ddos.sh提示:如果途中遇到y或n输入y继续安装，如果遇到这个?输入y</p>
 </blockquote>
 ]]></content>
   </entry>
