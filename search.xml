@@ -25,6 +25,14 @@
 ]]></content>
   </entry>
   <entry>
+    <title>TermuxDDOS篇</title>
+    <url>/2022/01/29/termux%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/</url>
+    <content><![CDATA[<blockquote>
+<p>第一步你必须要有个速度快的，稳定的梯子（vpn）<br>然后打开termux这时候最好不要把termux换成清华源，因为一会儿从github下载系统镜像会用vpn，不然会非常的慢<br>输入代码：apt update &amp;&amp; apt upgrade 更新一下<br>安装python所有版本:<br>pkg install python<br>pkg install python2<br>pkg install python3<br>安装git储存库:pkg install git<br>克隆git储存库:git clone <a href="https://github.com/CyberMrlink/Ddos404">https://github.com/CyberMrlink/Ddos404</a><br>克隆中等待克隆完成切勿退出软件进入git储存库主目录:储存库网址后边的名称<br>cd Ddos404<br>ls<br>sh ddos.sh提示:如果途中遇到y或n输入y继续安装，如果遇到这个?输入y</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
     <title>关于成年人的世界</title>
     <url>/2022/01/31/%E5%85%B3%E4%BA%8E%E6%88%90%E5%B9%B4%E4%BA%BA%E7%9A%84%E4%B8%96%E7%95%8C/</url>
     <content><![CDATA[
@@ -46,11 +54,9 @@
 ]]></content>
   </entry>
   <entry>
-    <title>TermuxDDOS篇</title>
-    <url>/2022/01/29/termux%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/</url>
-    <content><![CDATA[<blockquote>
-<p>第一步你必须要有个速度快的，稳定的梯子（vpn）<br>然后打开termux这时候最好不要把termux换成清华源，因为一会儿从github下载系统镜像会用vpn，不然会非常的慢<br>输入代码：apt update &amp;&amp; apt upgrade 更新一下<br>安装python所有版本:<br>pkg install python<br>pkg install python2<br>pkg install python3<br>安装git储存库:pkg install git<br>克隆git储存库:git clone <a href="https://github.com/CyberMrlink/Ddos404">https://github.com/CyberMrlink/Ddos404</a><br>克隆中等待克隆完成切勿退出软件进入git储存库主目录:储存库网址后边的名称<br>cd Ddos404<br>ls<br>sh ddos.sh提示:如果途中遇到y或n输入y继续安装，如果遇到这个?输入y</p>
-</blockquote>
+    <title>风月都好看，人间也浪漫</title>
+    <url>/2022/02/01/%E9%A3%8E%E6%9C%88%E9%83%BD%E5%A5%BD%E7%9C%8B%EF%BC%8C%E4%BA%BA%E9%97%B4%E4%B9%9F%E6%B5%AA%E6%BC%AB/</url>
+    <content><![CDATA[<p>万物皆有裂痕，那是光照进来的地方 ——莱昂纳德·科恩<br>星光不问赶路人，时光不负有心人~<br>愿你放下执着，放下不甘心，从今以后，只负责精彩自己的人生。往事不回头，未来不将就，你若盛开，清风自来<br>每一段无法继续的爱情，都有负责保存它的人，才能让另一个人安心往前<br>Set all tenderness to be visible only for you 把所有的温柔都设置成了仅你可见</p>
 ]]></content>
   </entry>
   <entry>
@@ -93,12 +99,6 @@
 <ol>
 <li>知识渴望 多写 多练 多问 &gt; 带徒弟 &gt; 兼职 就业 &gt; 阿里P5级别 0基础<br>怎么学 &gt; 直播(晚上8.30 - 10.30) 腾讯课堂 APP 客户端 &gt; 录播(下载) &gt; 线下 成本(场地 电脑 水电 住宿) &gt; 班级群 &gt; 多对一辅导 &gt; 作业 项目<br>周期 学费 &gt; 学的起 &gt; 政策 &gt; 国家助学补助政策 2000 &gt; 前1位 预定 入学登记表 教务处审核 10点 &gt; 就业 &gt; 证 阿里云认证 培训 &gt; 2年学习卡 工作 兼职 &gt; JD教育 腾讯课堂 &gt; 教育分期(不会包含任何手续费利息) 每个月 200 - 300 24期 每天18块 一包烟奶茶<br>企业职业等级认证 &gt;<br>阿里云认证 &gt; 阿里云 &gt; 互联网<br>华为认证   &gt; 华为   &gt; 通信<br>思科认证   &gt; 思科   &gt; 运维<br>课程安排 &gt;<br>全栈就业班 &gt; 核心语法 + 企业框架 &gt; 5.5个月 兼职 快速就业 8880<br>高薪架构班 &gt; 核心语法 + 企业框架 + 设计模式 7个月 长期就业 10880</li>
 </ol>
-]]></content>
-  </entry>
-  <entry>
-    <title>风月都好看，人间也浪漫</title>
-    <url>/2022/02/01/%E9%A3%8E%E6%9C%88%E9%83%BD%E5%A5%BD%E7%9C%8B%EF%BC%8C%E4%BA%BA%E9%97%B4%E4%B9%9F%E6%B5%AA%E6%BC%AB/</url>
-    <content><![CDATA[<p>万物皆有裂痕，那是光照进来的地方 ——莱昂纳德·科恩<br>星光不问赶路人，时光不负有心人~<br>愿你放下执着，放下不甘心，从今以后，只负责精彩自己的人生。往事不回头，未来不将就，你若盛开，清风自来<br>每一段无法继续的爱情，都有负责保存它的人，才能让另一个人安心往前<br>Set all tenderness to be visible only for you 把所有的温柔都设置成了仅你可见</p>
 ]]></content>
   </entry>
 </search>
