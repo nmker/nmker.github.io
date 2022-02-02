@@ -6,7 +6,7 @@
   <link href="http://nmker.github.io/atom.xml" rel="self"/>
   
   <link href="http://nmker.github.io/"/>
-  <updated>2022-02-01T18:05:47.656Z</updated>
+  <updated>2022-02-02T08:57:42.120Z</updated>
   <id>http://nmker.github.io/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://nmker.github.io/2022/02/02/hello-world/"/>
+    <id>http://nmker.github.io/2022/02/02/hello-world/</id>
+    <published>2022-02-02T08:57:42.128Z</published>
+    <updated>2022-02-02T08:57:42.120Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关于print函数()</title>
+    <link href="http://nmker.github.io/2022/02/02/%E5%85%B3%E4%BA%8Eprint%E5%87%BD%E6%95%B0/"/>
+    <id>http://nmker.github.io/2022/02/02/%E5%85%B3%E4%BA%8Eprint%E5%87%BD%E6%95%B0/</id>
+    <published>2022-02-02T08:43:28.000Z</published>
+    <updated>2022-02-02T08:57:27.064Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>print()函数<br>这不是最近刚接触python嘛就想这练习一下print函数并且表达一下我对print函数的观点</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">&gt;&gt;&gt; <span class="hljs-built_in">print</span>(<span class="hljs-string">&#x27;hello,nmker&#x27;</span>)<br>hello,nmker<br></code></pre></td></tr></table></figure><p>  代码行print(‘hello,nmker’)表示“输出字符串’hello,nmker’的文本”<br>python执行到这行时，表示Python在“调用”print()函数，并将该字符串的值“传递”给函数。传递给函数的值称为“参数”。请注意，引号没有输出在屏幕上，他们只是表示字符串的起止，不是字符串的一部分。<br>  注意:也可以用这个函数在屏幕上输出空行，只要调用print()就可以了，括号内没有任何东西。<br>  在写函数名时，末尾带上括号，表示它是一个函数的名字。这就是为什么你看到print(),而不是print。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;print()函数&lt;br&gt;这不是最近刚接触python嘛就想这练习一下print函数并且表达一下我对print函数的观点&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>print函数学习</title>
+    <link href="http://nmker.github.io/2022/02/02/print%E5%87%BD%E6%95%B0%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://nmker.github.io/2022/02/02/print%E5%87%BD%E6%95%B0%E5%AD%A6%E4%B9%A0/</id>
+    <published>2022-02-02T08:41:28.000Z</published>
+    <updated>2022-02-02T08:41:28.736Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>ceshi</title>
@@ -96,26 +152,6 @@
       
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;第一步你必须要有个速度快的，稳定的梯子（vpn）&lt;br&gt;然后打开termux这时候最好不要把termux换成清华源，因为一会儿从github下载系统镜像会用vpn，不然会非常的慢&lt;br&gt;输入代码：apt update &amp;amp;&amp;amp; apt </summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://nmker.github.io/2022/01/28/hello-world/"/>
-    <id>http://nmker.github.io/2022/01/28/hello-world/</id>
-    <published>2022-01-28T15:39:29.841Z</published>
-    <updated>2022-01-28T15:39:29.841Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
       
     
     
