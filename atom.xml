@@ -6,7 +6,7 @@
   <link href="http://nmker.github.io/atom.xml" rel="self"/>
   
   <link href="http://nmker.github.io/"/>
-  <updated>2022-02-02T08:57:42.120Z</updated>
+  <updated>2022-02-04T14:51:11.993Z</updated>
   <id>http://nmker.github.io/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>kali-AttackDDoS教学</title>
+    <link href="http://nmker.github.io/2022/02/04/kali-AttackDDoS%E6%95%99%E5%AD%A6-1/"/>
+    <id>http://nmker.github.io/2022/02/04/kali-AttackDDoS%E6%95%99%E5%AD%A6-1/</id>
+    <published>2022-02-04T14:43:00.000Z</published>
+    <updated>2022-02-04T14:51:11.993Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>本次文章发动DDoS攻击的是Github上的Python脚本<br>首先从Github克隆到本地：</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git <span class="hljs-built_in">clone</span> https://github.com/Ha3MrX/DDos-Attack<br></code></pre></td></tr></table></figure><p>然后进入DDos-Attack目录：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cd</span> DDos-Attack<br></code></pre></td></tr></table></figure><p>接着给ddos-attack.py设置权限：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">chmod +x ddos-attack.py<br></code></pre></td></tr></table></figure><p>用Python去运行ddos-attack.py这个python脚本：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">python ddos-attack.py<br></code></pre></td></tr></table></figure><p>然后输入攻击的IP，端口然后回车等待攻击完毕，然后本次DDoS攻击就完成了！（备注：别去违法乱纪哦，一切后果与我无关）</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本次文章发动DDoS攻击的是Github上的Python脚本&lt;br&gt;首先从Github克隆到本地：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gut</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>kali-AttackDDoS教学</title>
+    <link href="http://nmker.github.io/2022/02/04/kali-AttackDDoS%E6%95%99%E5%AD%A6/"/>
+    <id>http://nmker.github.io/2022/02/04/kali-AttackDDoS%E6%95%99%E5%AD%A6/</id>
+    <published>2022-02-04T14:41:48.000Z</published>
+    <updated>2022-02-04T14:41:48.805Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
