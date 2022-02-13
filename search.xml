@@ -41,6 +41,27 @@
 ]]></content>
   </entry>
   <entry>
+    <title>termux使用教程python-termux怎么安装python</title>
+    <url>/2022/02/14/termux%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8Bpython-termux%E6%80%8E%E4%B9%88%E5%AE%89%E8%A3%85python/</url>
+    <content><![CDATA[<blockquote>
+<p>Termux是一个Android下一个高级的终端模拟器，开源且不需要root,支持apt管理软件包，十分方便安装软件包,完美支持Python,PHP,Ruby,Go,Nodejs,MySQL等。随着智能设备的普及和性能的不断提升，如今的手机、平板等的硬件标准已达到了初级桌面计算机的硬件标准,用心去打造完全可以把手机变成一个强大的工具下面就教大家怎么在安卓上安卓python.<br>Termux的安装Python（推荐学习：Python视频教程）</p>
+</blockquote>
+<ol>
+<li>更新包apt update<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ apt update<br></code></pre></td></tr></table></figure></li>
+<li>修改源export EDITOR&#x3D;vi<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ apt edit-sources<br></code></pre></td></tr></table></figure>
+在vi编辑器里把第二行替换成以下内容（清华镜像源）deb [arch&#x3D;all,arm] <a href="http://mirrors.tuna.tsinghua.edu.cn/termux">http://mirrors.tuna.tsinghua.edu.cn/termux</a> stable main</li>
+</ol>
+<p>在vi编辑器里，输入第一个i进入编辑模式（插入），下面会给出提示“INSERT”，此时再打字就是在光标左边插入字符。等修改完毕后，按住音量上，同时输入e，即可退出编辑模式。再输入:wq保存并退出vi。<br>安装python2.7</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ pkg install python2<br></code></pre></td></tr></table></figure>
+<p>安装完成后,使用python2命令启动python 2.7.14环境.<br>安装python3</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ pkg install python<br></code></pre></td></tr></table></figure>
+<p>安装完成后,使用python命令启动python 3.6.5环境.</p>
+<p>升级pip版本</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ python2 -m pip install --upgrade pip<br>$ python -m pip install --upgrade pip<br></code></pre></td></tr></table></figure>
+<p>这两条命令分别升级了pip2和pip3到最新版.<br>以上就是termux怎么安装python的详细内容，更多请关注柠檬酷儿的其他相关文章！</p>
+]]></content>
+  </entry>
+  <entry>
     <title>print函数学习</title>
     <url>/2022/02/02/print%E5%87%BD%E6%95%B0%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
@@ -64,14 +85,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>用python turtle书写新年快乐</title>
-    <url>/2022/01/31/%E7%94%A8python-turtle%E4%B9%A6%E5%86%99%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/</url>
-    <content><![CDATA[<blockquote>
-<p>首先给大家伙拜年了！<br>2022大年三十的今天，我:柠檬酷儿在这里向大家伙拜年了！<br>这里推荐一个Python的三方库turtle，是一个可以绘制图像文字的库。<br>推荐一个Python的三方库turtle，是一个可以绘制图像文字的库。<br>这里的例子比较简单，就是依据各个点坐标连线最后形成文字的。<br>今天心血来潮想创作一番，于是写了‘新年快乐’四个字体，代码不难，纪念一下，Python正在学习中，难的目前不会写，哈哈，新的一年，我的新年愿望是python会有很大进步。<br>先附上笔记：<br>· import turtle ———- turtle库的引用，import turtle as t（t就是起的别名）<br>· penup简称up ——— t.up()就是抬起笔<br>· pendown简称down ——–t.down()就是落下笔<br>· backward———-t.backward()向后画<br>· goto———-t.goto(二维坐标)箭头到此地<br>· pensize——–t.pensize(笔的粗细（像素）)<br>· pencolor简称color—-t.color(“red”)参数也可为rgb小数值或元组值<br>· left———t.left(）箭头左转，里面写度数，可正可负<br>· right—–右转<br>· setup—–t.setup(width,height,startx,starty)设置窗口大小及位置<br>· begin_fill——开始填充<br>· end_fill———结束填充<br>· fillcolor———-填充颜色<br>· circle———一个参数是圆，二个（半径，角度（对应弧度）），另外，circle（40，steps&#x3D;3）为三角形边长40像素，多边形可以改steps值。<br>下面是我写新年快乐的代码：<br>import turtle as t<br>t.pensize(10)<br>t.color(“red”)<br>t.up()<br>t.goto(-200,150)<br>t.pendown()<br>t.left(-135)<br>t.fd(30)<br>t.up()<br>t.goto(-250,130)<br>t.pendown()<br>t.left(135)<br>t.fd(80)<br>t.up()<br>t.goto(-235,120)<br>t.down()<br>t.left(-45)<br>t.fd(28)<br>t.up()<br>t.goto(-185,120)<br>t.down()<br>t.left(-90)<br>t.fd(25)<br>t.up()<br>t.goto(-250,100)<br>t.down()<br>t.left(135)<br>t.fd(80)<br>t.up()<br>t.goto(-250,80)<br>t.down()<br>t.fd(80)<br>t.up()<br>t.goto(-205,100)<br>t.down()<br>t.left(-90)<br>t.fd(100)<br>t.left(-135)<br>t.fd(30)<br>t.up()<br>t.goto(-220,60)<br>t.down()<br>t.left(90)<br>t.fd(40)<br>t.up()<br>t.goto(-190,60)<br>t.down()<br>t.left(90)<br>t.fd(30)<br>t.up()<br>t.goto(-100,150)<br>t.down()<br>t.left(-100)<br>t.fd(60)<br>t.left(50)<br>t.fd(120)<br>t.backward(95)<br>t.left(95)<br>t.fd(70)<br>t.up()<br>t.goto(-115,90)<br>t.down()<br>t.left(-90)<br>t.fd(93)<br>#年<br>t.up()<br>t.color(“orange”)<br>t.goto(100,135)<br>t.left(-45)<br>t.down()<br>t.fd(45)<br>t.backward(22)<br>t.left(135)<br>t.fd(100)<br>t.up()<br>t.goto(97,95)<br>t.down()<br>t.fd(80)<br>t.backward(80)<br>t.left(-90)<br>t.fd(30)<br>t.left(-90)<br>t.fd(15)<br>t.backward(112)<br>t.up()<br>t.goto(140,115)<br>t.down()<br>t.left(90)<br>t.fd(110)<br>#kuai<br>t.up()<br>t.color(“pink”)<br>t.goto(-230,-55)<br>t.down()<br>t.fd(160)<br>t.up()<br>t.goto(-233,-95)<br>t.down()<br>t.left(-40)<br>t.fd(27)<br>t.pensize(3)<br>t.backward(30)<br>t.left(76)<br>t.pensize(10)<br>t.fd(20)<br>t.up()<br>t.goto(-190,-90)<br>t.left(55)<br>t.down()<br>t.fd(80)<br>t.left(-90)<br>t.fd(40)<br>t.left(90)<br>t.fd(20)<br>t.backward(110)<br>t.up()<br>t.goto(-150,-50)<br>t.left(-90)<br>t.down()<br>t.fd(80)<br>t.circle(-150,40)<br>t.up()<br>t.goto(-150,-140)<br>t.down()<br>t.left(50)<br>t.circle(150,35)<br>#le<br>t.up()<br>t.goto(100,-80)<br>t.color(“yellow”)<br>t.down()<br>t.left(50)<br>t.circle(180,30)<br>t.up()<br>t.goto(100,-80)<br>t.down()<br>t.left(-127)<br>t.fd(45)<br>t.left(90)<br>t.fd(90)<br>t.up()<br>t.goto(140,-85)<br>t.down()<br>t.left(-90)<br>t.fd(130)<br>t.left(-135)<br>t.fd(40)<br>t.up()<br>t.goto(124,-155)<br>t.down()<br>t.left(90)<br>t.fd(50)<br>t.up()<br>t.goto(158,-160)<br>t.down()<br>t.left(80)<br>t.fd(46)<br>#tuan<br>t.up()<br>t.goto(-50,-160)<br>t.down()<br>t.pensize(5)<br>t.color(“bloown”)<br>t.begin_fill()<br>t.fillcolor(“yellow”)<br>t.circle(50)<br>t.end_fill()<br>t.up()<br>t.goto(-35,-130)<br>t.down()<br>t.color(“black”)<br>t.circle(7)<br>t.up()<br>t.goto(5,-130)<br>t.down()<br>t.circle(7)<br>t.up()<br>t.goto(-20,-150)<br>t.down()<br>t.circle(20,130)<br>#xin<br>t.up()<br>t.goto(-30,80)<br>t.pensize(60)<br>t.color(“red”)<br>t.left(-120)<br>t.down()<br>t.fd(50)<br>t.left(90)<br>t.fd(50)<br>#ok   over<br>这样就ok了，运行看看结果吧。新年快乐！</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
     <title>关于成年人的世界</title>
     <url>/2022/01/31/%E5%85%B3%E4%BA%8E%E6%88%90%E5%B9%B4%E4%BA%BA%E7%9A%84%E4%B8%96%E7%95%8C/</url>
     <content><![CDATA[
@@ -82,5 +95,13 @@
       <categories>
         <category>个人生活</category>
       </categories>
+  </entry>
+  <entry>
+    <title>用python turtle书写新年快乐</title>
+    <url>/2022/01/31/%E7%94%A8python-turtle%E4%B9%A6%E5%86%99%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/</url>
+    <content><![CDATA[<blockquote>
+<p>首先给大家伙拜年了！<br>2022大年三十的今天，我:柠檬酷儿在这里向大家伙拜年了！<br>这里推荐一个Python的三方库turtle，是一个可以绘制图像文字的库。<br>推荐一个Python的三方库turtle，是一个可以绘制图像文字的库。<br>这里的例子比较简单，就是依据各个点坐标连线最后形成文字的。<br>今天心血来潮想创作一番，于是写了‘新年快乐’四个字体，代码不难，纪念一下，Python正在学习中，难的目前不会写，哈哈，新的一年，我的新年愿望是python会有很大进步。<br>先附上笔记：<br>· import turtle ———- turtle库的引用，import turtle as t（t就是起的别名）<br>· penup简称up ——— t.up()就是抬起笔<br>· pendown简称down ——–t.down()就是落下笔<br>· backward———-t.backward()向后画<br>· goto———-t.goto(二维坐标)箭头到此地<br>· pensize——–t.pensize(笔的粗细（像素）)<br>· pencolor简称color—-t.color(“red”)参数也可为rgb小数值或元组值<br>· left———t.left(）箭头左转，里面写度数，可正可负<br>· right—–右转<br>· setup—–t.setup(width,height,startx,starty)设置窗口大小及位置<br>· begin_fill——开始填充<br>· end_fill———结束填充<br>· fillcolor———-填充颜色<br>· circle———一个参数是圆，二个（半径，角度（对应弧度）），另外，circle（40，steps&#x3D;3）为三角形边长40像素，多边形可以改steps值。<br>下面是我写新年快乐的代码：<br>import turtle as t<br>t.pensize(10)<br>t.color(“red”)<br>t.up()<br>t.goto(-200,150)<br>t.pendown()<br>t.left(-135)<br>t.fd(30)<br>t.up()<br>t.goto(-250,130)<br>t.pendown()<br>t.left(135)<br>t.fd(80)<br>t.up()<br>t.goto(-235,120)<br>t.down()<br>t.left(-45)<br>t.fd(28)<br>t.up()<br>t.goto(-185,120)<br>t.down()<br>t.left(-90)<br>t.fd(25)<br>t.up()<br>t.goto(-250,100)<br>t.down()<br>t.left(135)<br>t.fd(80)<br>t.up()<br>t.goto(-250,80)<br>t.down()<br>t.fd(80)<br>t.up()<br>t.goto(-205,100)<br>t.down()<br>t.left(-90)<br>t.fd(100)<br>t.left(-135)<br>t.fd(30)<br>t.up()<br>t.goto(-220,60)<br>t.down()<br>t.left(90)<br>t.fd(40)<br>t.up()<br>t.goto(-190,60)<br>t.down()<br>t.left(90)<br>t.fd(30)<br>t.up()<br>t.goto(-100,150)<br>t.down()<br>t.left(-100)<br>t.fd(60)<br>t.left(50)<br>t.fd(120)<br>t.backward(95)<br>t.left(95)<br>t.fd(70)<br>t.up()<br>t.goto(-115,90)<br>t.down()<br>t.left(-90)<br>t.fd(93)<br>#年<br>t.up()<br>t.color(“orange”)<br>t.goto(100,135)<br>t.left(-45)<br>t.down()<br>t.fd(45)<br>t.backward(22)<br>t.left(135)<br>t.fd(100)<br>t.up()<br>t.goto(97,95)<br>t.down()<br>t.fd(80)<br>t.backward(80)<br>t.left(-90)<br>t.fd(30)<br>t.left(-90)<br>t.fd(15)<br>t.backward(112)<br>t.up()<br>t.goto(140,115)<br>t.down()<br>t.left(90)<br>t.fd(110)<br>#kuai<br>t.up()<br>t.color(“pink”)<br>t.goto(-230,-55)<br>t.down()<br>t.fd(160)<br>t.up()<br>t.goto(-233,-95)<br>t.down()<br>t.left(-40)<br>t.fd(27)<br>t.pensize(3)<br>t.backward(30)<br>t.left(76)<br>t.pensize(10)<br>t.fd(20)<br>t.up()<br>t.goto(-190,-90)<br>t.left(55)<br>t.down()<br>t.fd(80)<br>t.left(-90)<br>t.fd(40)<br>t.left(90)<br>t.fd(20)<br>t.backward(110)<br>t.up()<br>t.goto(-150,-50)<br>t.left(-90)<br>t.down()<br>t.fd(80)<br>t.circle(-150,40)<br>t.up()<br>t.goto(-150,-140)<br>t.down()<br>t.left(50)<br>t.circle(150,35)<br>#le<br>t.up()<br>t.goto(100,-80)<br>t.color(“yellow”)<br>t.down()<br>t.left(50)<br>t.circle(180,30)<br>t.up()<br>t.goto(100,-80)<br>t.down()<br>t.left(-127)<br>t.fd(45)<br>t.left(90)<br>t.fd(90)<br>t.up()<br>t.goto(140,-85)<br>t.down()<br>t.left(-90)<br>t.fd(130)<br>t.left(-135)<br>t.fd(40)<br>t.up()<br>t.goto(124,-155)<br>t.down()<br>t.left(90)<br>t.fd(50)<br>t.up()<br>t.goto(158,-160)<br>t.down()<br>t.left(80)<br>t.fd(46)<br>#tuan<br>t.up()<br>t.goto(-50,-160)<br>t.down()<br>t.pensize(5)<br>t.color(“bloown”)<br>t.begin_fill()<br>t.fillcolor(“yellow”)<br>t.circle(50)<br>t.end_fill()<br>t.up()<br>t.goto(-35,-130)<br>t.down()<br>t.color(“black”)<br>t.circle(7)<br>t.up()<br>t.goto(5,-130)<br>t.down()<br>t.circle(7)<br>t.up()<br>t.goto(-20,-150)<br>t.down()<br>t.circle(20,130)<br>#xin<br>t.up()<br>t.goto(-30,80)<br>t.pensize(60)<br>t.color(“red”)<br>t.left(-120)<br>t.down()<br>t.fd(50)<br>t.left(90)<br>t.fd(50)<br>#ok   over<br>这样就ok了，运行看看结果吧。新年快乐！</p>
+</blockquote>
+]]></content>
   </entry>
 </search>

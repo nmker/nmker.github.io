@@ -6,7 +6,7 @@
   <link href="http://nmker.github.io/atom.xml" rel="self"/>
   
   <link href="http://nmker.github.io/"/>
-  <updated>2022-02-04T14:51:11.993Z</updated>
+  <updated>2022-02-13T16:34:07.898Z</updated>
   <id>http://nmker.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>termux使用教程python-termux怎么安装python</title>
+    <link href="http://nmker.github.io/2022/02/14/termux%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8Bpython-termux%E6%80%8E%E4%B9%88%E5%AE%89%E8%A3%85python/"/>
+    <id>http://nmker.github.io/2022/02/14/termux%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8Bpython-termux%E6%80%8E%E4%B9%88%E5%AE%89%E8%A3%85python/</id>
+    <published>2022-02-13T16:18:23.000Z</published>
+    <updated>2022-02-13T16:34:07.898Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Termux是一个Android下一个高级的终端模拟器，开源且不需要root,支持apt管理软件包，十分方便安装软件包,完美支持Python,PHP,Ruby,Go,Nodejs,MySQL等。随着智能设备的普及和性能的不断提升，如今的手机、平板等的硬件标准已达到了初级桌面计算机的硬件标准,用心去打造完全可以把手机变成一个强大的工具下面就教大家怎么在安卓上安卓python.<br>Termux的安装Python（推荐学习：Python视频教程）</p></blockquote><ol><li>更新包apt update<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ apt update<br></code></pre></td></tr></table></figure></li><li>修改源export EDITOR&#x3D;vi<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ apt edit-sources<br></code></pre></td></tr></table></figure>在vi编辑器里把第二行替换成以下内容（清华镜像源）deb [arch&#x3D;all,arm] <a href="http://mirrors.tuna.tsinghua.edu.cn/termux">http://mirrors.tuna.tsinghua.edu.cn/termux</a> stable main</li></ol><p>在vi编辑器里，输入第一个i进入编辑模式（插入），下面会给出提示“INSERT”，此时再打字就是在光标左边插入字符。等修改完毕后，按住音量上，同时输入e，即可退出编辑模式。再输入:wq保存并退出vi。<br>安装python2.7</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ pkg install python2<br></code></pre></td></tr></table></figure><p>安装完成后,使用python2命令启动python 2.7.14环境.<br>安装python3</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ pkg install python<br></code></pre></td></tr></table></figure><p>安装完成后,使用python命令启动python 3.6.5环境.</p><p>升级pip版本</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ python2 -m pip install --upgrade pip<br>$ python -m pip install --upgrade pip<br></code></pre></td></tr></table></figure><p>这两条命令分别升级了pip2和pip3到最新版.<br>以上就是termux怎么安装python的详细内容，更多请关注柠檬酷儿的其他相关文章！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Termux是一个Android下一个高级的终端模拟器，开源且不需要root,支持apt管理软件包，十分方便安装软件包,完美支持Python,PHP,Ruby,Go,Nodejs,MySQL等。随着智能设备的普及和性能的不断提升，如今的手机、平板等</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>kali-AttackDDoS教学</title>
