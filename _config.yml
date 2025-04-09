@@ -4,12 +4,12 @@
 
 # Site
 title: Hexo
-subtitle: ''
+subtitle: '柠檬酷尔'
 description: ''
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: 张 先生
+language: zh-CN
+timezone: 'Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
