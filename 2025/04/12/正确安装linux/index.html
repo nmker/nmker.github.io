@@ -10,7 +10,8 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
     <meta name="keywords" content="Fechin,"> 
-    <meta name="description" content="教程,"> 
+    <meta name="description" content="教程,一、准备工作
+选择合适的 Linux 发行版新手推荐：Ubuntu（桌面友好）、Linux Mint（基于 Ubuntu，更接近 Windows 操作习惯）、Deepin（国产，美观易用）。技术向 ,"> 
     <meta name="author" content="Zhnag Dong"> 
     <link rel="alternative" href="atom.xml" title="柠檬酷尔" type="application/atom+xml"> 
     <link rel="icon" href="/img/favicon.png"> 
@@ -19,7 +20,8 @@
     
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="正确安装linux - 柠檬酷尔"/>
-    <meta name="twitter:description" content="教程,"/>
+    <meta name="twitter:description" content="教程,一、准备工作
+选择合适的 Linux 发行版新手推荐：Ubuntu（桌面友好）、Linux Mint（基于 Ubuntu，更接近 Windows 操作习惯）、Deepin（国产，美观易用）。技术向 ,"/>
     
     
     
@@ -27,7 +29,8 @@
     <meta property="og:site_name" content="柠檬酷尔"/>
     <meta property="og:type" content="object"/>
     <meta property="og:title" content="正确安装linux - 柠檬酷尔"/>
-    <meta property="og:description" content="教程,"/>
+    <meta property="og:description" content="教程,一、准备工作
+选择合适的 Linux 发行版新手推荐：Ubuntu（桌面友好）、Linux Mint（基于 Ubuntu，更接近 Windows 操作习惯）、Deepin（国产，美观易用）。技术向 ,"/>
     
 <link rel="stylesheet" href="/css/diaspora.css">
 
@@ -67,7 +70,29 @@
 
         </div>
         <div class="content markdown">
-            
+            <h3 id="一、准备工作"><a href="#一、准备工作" class="headerlink" title="一、准备工作"></a>一、准备工作</h3><ol>
+<li>选择合适的 Linux 发行版<br>新手推荐：Ubuntu（桌面友好）、Linux Mint（基于 Ubuntu，更接近 Windows 操作习惯）、Deepin（国产，美观易用）。<br>技术向 &#x2F; 服务器：Debian（稳定）、Fedora（最新技术）、CentOS（企业级，适合服务器）。<br>下载 ISO 镜像：从官方网站下载对应版本（如 Ubuntu 官网），确保选择 64 位版本（主流配置）。</li>
+<li>准备启动盘<br>工具：<br>Windows：Rufus 或 BalenaEtcher（推荐，简单易用）。<br>macOS&#x2F;Linux：使用终端命令 dd 或图形工具 BalenaEtcher。<br>步骤：<br>插入 8GB 以上 U 盘（注意备份数据，制作启动盘会格式化 U 盘）。<br>打开工具，选择下载的 ISO 文件和 U 盘设备，点击 “开始” 制作启动盘。</li>
+</ol>
+<h3 id="二、安装前的准备"><a href="#二、安装前的准备" class="headerlink" title="二、安装前的准备"></a>二、安装前的准备</h3><ol>
+<li>备份重要数据<br>全新安装或双系统分区可能导致数据丢失，建议提前备份文件到外部存储。</li>
+<li>进入 BIOS&#x2F;UEFI 设置<br>启动电脑时按特定按键（不同品牌不同，常见：F2、Delete、F12、Esc），进入 BIOS&#x2F;UEFI。<br>设置项调整：<br>启用 UEFI 模式（推荐，支持大于 2TB 硬盘）。<br>关闭 安全启动（Secure Boot，部分发行版需关闭以支持第三方驱动）。<br>设置 U 盘为第一启动项（或在启动菜单中选择 U 盘启动）。</li>
+</ol>
+<h3 id="三、正式安装（以-Ubuntu-为例）"><a href="#三、正式安装（以-Ubuntu-为例）" class="headerlink" title="三、正式安装（以 Ubuntu 为例）"></a>三、正式安装（以 Ubuntu 为例）</h3><ol>
+<li>从 U 盘启动<br>电脑启动后，选择 Install Ubuntu（或类似选项），进入安装向导。</li>
+<li>选择语言和安装类型<br>语言：选择简体中文或英文。<br>安装类型：<br>全新安装：选择 清除磁盘并安装 Ubuntu（适合单系统，会删除磁盘所有数据）。<br>双系统安装：选择 与 Windows 共存（前提是已有 Windows 系统，且已预留空闲磁盘空间）。<br>手动分区（高级）：选择 其他选项（适合自定义分区，如服务器或多磁盘用户）。</li>
+<li>分区（关键步骤）<br>新手建议自动分区（选择 “清除磁盘” 或 “与 Windows 共存”），系统会自动分配分区。<br>手动分区（示例，适用于独立磁盘）：<br>ESP 分区（UEFI 模式必需）：300MB - 500MB，格式为 FAT32，用于存储引导文件。<br>根分区（&#x2F;）：建议至少 20GB（日常使用），格式为 ext4。<br>home 分区（&#x2F;home）：可选，用于存储用户数据，格式为 ext4（若希望系统和数据分离）。<br>交换分区（swap）：可选，大小建议等于或小于内存容量（如 16GB 内存设 16GB swap），用于虚拟内存。</li>
+<li>设置用户信息<br>输入姓名、用户名、密码（建议设置密码，避免空密码），勾选 “自动登录”（可选）。</li>
+<li>开始安装<br>等待安装过程（约 10-30 分钟，取决于硬件性能），期间可选择安装更新和第三方软件（如 Chrome、Flash）。</li>
+<li>安装完成，重启系统<br>安装完成后，按照提示重启电脑，拔出 U 盘，系统会自动进入新安装的 Linux 系统。</li>
+</ol>
+<h3 id="四、双系统安装注意事项"><a href="#四、双系统安装注意事项" class="headerlink" title="四、双系统安装注意事项"></a>四、双系统安装注意事项</h3><p>提前在 Windows 中预留空间：<br>通过 磁盘管理 右键点击 Windows 所在磁盘，选择 “压缩卷”，预留至少 50GB 空闲空间（根据需求调整）。<br>引导顺序问题：<br>安装后若默认启动 Windows，需进入 BIOS&#x2F;UEFI 手动选择 Linux 引导项，或通过工具（如 EasyBCD）修复引导菜单。<br>分区时避免误删 Windows 分区：<br>手动分区时注意识别磁盘标签（如 Windows 的 NTFS 分区，通常名为 Windows 或无标签），切勿删除系统分区。</p>
+<h3 id="五、安装后配置"><a href="#五、安装后配置" class="headerlink" title="五、安装后配置"></a>五、安装后配置</h3><p>更新系统：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">sudo</span> apt update &amp;&amp; <span class="built_in">sudo</span> apt upgrade -y  <span class="comment"># Ubuntu/Debian 系</span></span><br><span class="line">$ <span class="built_in">sudo</span> dnf update -y  <span class="comment"># Fedora 系</span></span><br></pre></td></tr></table></figure>
+
+<p>安装常用软件：<br>浏览器（Chrome&#x2F;Firefox）、办公软件（LibreOffice）、开发工具（VS Code、Git 等）。<br>配置硬件驱动：<br>显卡驱动：Nvidia 用户需安装专有驱动（通过系统设置中的 “软件和更新”→“附加驱动”）。<br>无线网卡 &#x2F; 蓝牙驱动：部分老旧设备可能需要手动安装，参考硬件厂商文档或社区教程。<br>设置启动项（双系统）：<br>若引导菜单异常，可安装 Boot-Repair 修复。</p>
+<h3 id="六、常见问题"><a href="#六、常见问题" class="headerlink" title="六、常见问题"></a>六、常见问题</h3><p>无法从 U 盘启动：<br>检查 U 盘是否制作成功（可尝试重新制作），或 BIOS&#x2F;UEFI 中启动模式是否正确（UEFI 对应 UEFI 启动盘，Legacy 对应传统启动盘）。<br>分区错误导致数据丢失：<br>务必提前备份数据，手动分区时仔细确认磁盘和分区信息。<br>图形界面异常：<br>尝试以 “安全模式” 启动（安装时选择），或安装正确的显卡驱动。<br>总结<br>Linux 安装流程标准化，新手建议选择 Ubuntu 或 Linux Mint 并使用自动分区，避免复杂操作。关键是做好数据备份、选择合适的发行版，并根据硬件和使用场景调整分区和驱动配置。遇到问题时，参考官方文档或社区（如 Ubuntu 论坛、Reddit r&#x2F;linux4noobs）获取帮助。</p>
+
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="true">
                 <source type="audio/mpeg" src="">
